@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "请开始你们的表演",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#1AAD16",
+    "backgroundColor":"#fff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"第一个页签",
+        "iconPath":"",
+        "selectedIconPath":""
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "第二个页签",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "第三个页签",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ],
+    "position":"bottom"
+  }
+}

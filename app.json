@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/search/index",
+    "pages/profile/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -16,21 +18,21 @@
     "list":[
       {
         "pagePath":"pages/index/index",
-        "text":"第一个页签",
-        "iconPath":"",
-        "selectedIconPath":""
+        "text":"发现",
+        "iconPath":"image/f.png",
+        "selectedIconPath":"image/f-a.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "第二个页签",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "pagePath": "pages/search/index",
+        "text": "搜索",
+        "iconPath": "image/s.png",
+        "selectedIconPath": "image/s-a.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "第三个页签",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "pagePath": "pages/profile/index",
+        "text": "个人信息",
+        "iconPath": "image/p.png",
+        "selectedIconPath": "image/p-a.png"
       }
     ],
     "position":"bottom"
